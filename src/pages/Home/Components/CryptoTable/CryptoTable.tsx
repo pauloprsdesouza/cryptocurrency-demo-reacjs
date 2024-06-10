@@ -17,7 +17,7 @@ const CryptoTable: React.FC<Props> = ({cryptoDetails}) => {
                     <th>1h%</th>
                     <th>24h%</th>
                     <th>7d%</th>
-                    <th>Maket Cap.</th>
+                    <th>Market Cap.</th>
                     <th>Volume (24h)</th>
                 </tr>
             </thead>
