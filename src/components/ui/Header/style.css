@@ -1,0 +1,12 @@
+.nav-link.active {
+    border-bottom: solid 2px #61a1ff;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+    border: none;
+}
+
+.navbar > div {
+    border: none;
+}

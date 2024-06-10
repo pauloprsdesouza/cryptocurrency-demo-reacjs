@@ -1,0 +1,1 @@
+export const ApiUrlCryptoQuotation = process.env.REACT_APP_CRYPTO_API_URL;

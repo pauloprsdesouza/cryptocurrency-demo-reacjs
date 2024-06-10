@@ -5,9 +5,60 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: transparent;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card-title {
+  font-weight: 700 !important;
+}
+
+.card-subtitle {
+  font-weight: 400 !important;
+}
+
+.card-hover:hover {
+  color: #61a1ff !important;
+  cursor: pointer;
+}
+
+.card-hover:hover>.card-title {
+  color: #61a1ff !important;
+}
+
+.img-cirle-lg {
+  border-radius: 3% !important;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border: none;
+}
+
+.img-cirle-md {
+  border-radius: 10% !important;
+  padding: 1px;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.img-cirle-sm {
+  border-radius: 10% !important;
+  object-fit: cover;
+  width: 25px;
+  height: 25px;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.wrap-container {
+  min-height: 77.2vh;
+}
+
+.text-sm {
+  font-size: 10pt;
+}
+
+.text-md {
+  font-size: 30pt !important;
+  font-weight: 800;
 }
